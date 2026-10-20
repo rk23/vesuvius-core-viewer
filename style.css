@@ -1,0 +1,19 @@
+:root { --bg:#0e1116; --panel:#171b22; --text:#e6e8eb; --muted:#9aa3ad; --accent:#ff7a33; --line:#2a313b; }
+html,body { margin:0; height:100%; background:var(--bg); color:var(--text); font:13px/1.4 -apple-system,system-ui,sans-serif; }
+#app { display:flex; height:100%; }
+#view { flex:1; position:relative; min-width:0; }
+#panel { width:300px; overflow-y:auto; background:var(--panel); border-left:1px solid var(--line); padding:12px 14px; box-sizing:border-box; }
+h1 { font-size:15px; margin:0 0 4px; } .muted { color:var(--muted); font-size:12px; }
+fieldset { border:1px solid var(--line); border-radius:6px; margin:10px 0; padding:8px 10px; }
+legend { color:var(--muted); padding:0 4px; }
+label { display:flex; align-items:center; gap:6px; margin:4px 0; }
+input[type=range] { flex:1; } .val { width:62px; text-align:right; color:var(--muted); font-variant-numeric:tabular-nums; }
+button { background:#232a34; color:var(--text); border:1px solid var(--line); border-radius:5px; padding:4px 8px; margin:2px 2px 2px 0; cursor:pointer; }
+button:hover { border-color:var(--accent); }
+#hud { position:absolute; left:10px; bottom:8px; color:var(--muted); font-size:12px; pointer-events:none; }
+@media (max-width:700px) { #app { flex-direction:column; } #panel { width:100%; height:45%; border-left:none; border-top:1px solid var(--line); } }
+
+#loading { position:absolute; top:12px; left:12px; max-width:70%; padding:8px 12px; background:var(--panel); border-radius:6px; z-index:2; }
+#sceneSelect { width:100%; margin:6px 0; padding:6px; background:var(--bg); color:var(--text); border:1px solid var(--line); }
+#sceneFile { max-width:100%; margin:6px 0; }
+a { color:#8fd3ff; }

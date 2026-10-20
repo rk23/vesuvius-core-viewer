@@ -1,0 +1,30 @@
+{
+  "three_version": "0.160.0",
+  "files": [
+    {
+      "path": "vendor/three.module.js",
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r160/build/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "vendor/OrbitControls.js",
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r160/examples/jsm/controls/OrbitControls.js",
+      "sha256": "5a44a9e86a2a0fb11933eed69bc2cd33c76a496854c1aed6ed776efa87d7b064"
+    },
+    {
+      "path": "licenses/THREE.txt",
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r160/LICENSE",
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    },
+    {
+      "path": "licenses/HERCULANEUM-UMBILICI.txt",
+      "source": "https://raw.githubusercontent.com/AlexeyDrobkovStrikesBack/herculaneum-umbilici/de7642ac9b38266e95192489e22fb13b7e2d13b6/LICENSE",
+      "sha256": "231f034cfb288853887447d81b0473a56fa77da11f06de1c83b46f7dfe4d7092"
+    },
+    {
+      "path": "licenses/CT-DATA.txt",
+      "source": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/LICENSE.txt",
+      "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19"
+    }
+  ]
+}

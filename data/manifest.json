@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "data/axes/PHerc0175A.json",
+      "bytes": 1760,
+      "sha256": "44609886200baac6ec4e9c484adcc285848e05337aee0b779b296efb4347eee3"
+    },
+    {
+      "path": "data/axes/PHerc0175B.json",
+      "bytes": 7674,
+      "sha256": "3f64f0a6c20910ec8c306c82234ac1a00dd291ca935a0344be77f8b72eb88d26"
+    },
+    {
+      "path": "data/axes/PHerc0191.json",
+      "bytes": 13194,
+      "sha256": "deeb1b2e7db86fb9765fa75ac0436e68a649924664ec07955931deaa69802215"
+    },
+    {
+      "path": "data/axes/PHerc0257.json",
+      "bytes": 13873,
+      "sha256": "7c28140e3713089931b295e0f24a8930fd95a7dcc52f5c7ef2225a2ac30090b8"
+    },
+    {
+      "path": "data/axes/PHerc0800.json",
+      "bytes": 9633,
+      "sha256": "f0ba75f815e1a93a73b926d77e7fbafa1351a0a5dd8d788270324ba7d5b154a1"
+    },
+    {
+      "path": "data/axes/PHerc1218.json",
+      "bytes": 13340,
+      "sha256": "931c2c2394106d18bdb76715d3490a6ae02d6e99ef30375d37ff57310b2b874e"
+    },
+    {
+      "path": "data/axes/PHerc1667.json",
+      "bytes": 6358,
+      "sha256": "d7bf7c76fb16b4af5588243da4a6706c168a598c879d146c7f6ffcbce53aec95"
+    },
+    {
+      "path": "data/catalog.json",
+      "bytes": 7863,
+      "sha256": "21f1a4354820db82e8895f8dc5be9ee1f0e289c51e8ca04ea738405a27a0a9f3"
+    },
+    {
+      "path": "data/scenes/PHerc0175A.json.gz",
+      "bytes": 7871259,
+      "sha256": "40635d350b2ecb012ce6b5e0abece68dfc1e01f1741d38d8f51e809897a14387"
+    },
+    {
+      "path": "data/scenes/PHerc0175B.json.gz",
+      "bytes": 7213303,
+      "sha256": "df6cd423fedfb9d4fff2af418979266910b58ad680c37d182671d0ebedbf3b40"
+    },
+    {
+      "path": "data/scenes/PHerc0191.json.gz",
+      "bytes": 7975832,
+      "sha256": "d90fad503d549a19e1d7370fb788aa2e8a2b461e7c3021a4643dc0f1a8450d8b"
+    },
+    {
+      "path": "data/scenes/PHerc0257.json.gz",
+      "bytes": 6085589,
+      "sha256": "67e11ffbb7be9235e9ae9c1d4b67f8eb973ca74489c40f4c53c9de639cc2a497"
+    },
+    {
+      "path": "data/scenes/PHerc0800.json.gz",
+      "bytes": 8243766,
+      "sha256": "025140e052da23156ef66bf5f5715c35d63a1269d19aa73fec4fa6945f428b40"
+    },
+    {
+      "path": "data/scenes/PHerc1218.json.gz",
+      "bytes": 9499763,
+      "sha256": "f030c3d34e73f660715a24d1a04831b8f729345d2cc764b6244cf9fff0dc81da"
+    },
+    {
+      "path": "data/scenes/PHerc1667.json.gz",
+      "bytes": 2339611,
+      "sha256": "09d1bda192b4fa67e280e84b45752b6e9563ae68daf6e4b1cd245f00b69d3bc9"
+    }
+  ]
+}

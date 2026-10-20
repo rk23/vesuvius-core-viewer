@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "scenes": [
+    {
+      "id": "PHerc0175A",
+      "title": "PHerc0175A \u2014 scroll center",
+      "scene": "data/scenes/PHerc0175A.json.gz",
+      "axis": "data/axes/PHerc0175A.json",
+      "voxel_um": 8.64,
+      "z_range": [
+        1700,
+        11800
+      ],
+      "axis_ok": [
+        4700,
+        9100
+      ],
+      "radius_mm": 8.0,
+      "points_shown": 600000,
+      "ct_slices": 315,
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0175A/volumes/20250521115057-8.640um-1.2m-116keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge \u2014 CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "Approximate center track; displayed beyond its specified central range.",
+        "axis_license": "CC-BY-NC-4.0",
+        "axis_note": "Approximate center track; displayed beyond its specified central range.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      }
+    },
+    {
+      "id": "PHerc0175B",
+      "title": "PHerc0175B \u2014 scroll center",
+      "scene": "data/scenes/PHerc0175B.json.gz",
+      "axis": "data/axes/PHerc0175B.json",
+      "voxel_um": 8.64,
+      "z_range": [
+        1632,
+        12960
+      ],
+      "axis_ok": [
+        1632,
+        12960
+      ],
+      "radius_mm": 10,
+      "points_shown": 600000,
+      "ct_slices": 177,
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0175B/volumes/20250521125822-8.640um-1.2m-116keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge \u2014 CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "Approximate automatic center track, trimmed to the displayed range.",
+        "axis_license": "CC-BY-NC-4.0",
+        "axis_note": "Approximate automatic center track, trimmed to the displayed range.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      }
+    },
+    {
+      "id": "PHerc0191",
+      "title": "PHerc0191 \u2014 scroll center",
+      "scene": "data/scenes/PHerc0191.json.gz",
+      "axis": "data/axes/PHerc0191.json",
+      "voxel_um": 9.362,
+      "z_range": [
+        2000,
+        18800
+      ],
+      "axis_ok": [
+        1968,
+        18840
+      ],
+      "radius_mm": 10.0,
+      "points_shown": 600000,
+      "ct_slices": 262,
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0191/volumes/20250821151635-9.362um-1.2m-113keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge \u2014 CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "https://github.com/AlexeyDrobkovStrikesBack/herculaneum-umbilici/blob/de7642ac9b38266e95192489e22fb13b7e2d13b6/PHerc0191_umbilicus.json",
+        "axis_license": "MIT",
+        "axis_note": "Manual axis by Alexey Drobkov.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      }
+    },
+    {
+      "id": "PHerc0257",
+      "title": "PHerc0257 \u2014 scroll center",
+      "scene": "data/scenes/PHerc0257.json.gz",
+      "axis": "data/axes/PHerc0257.json",
+      "voxel_um": 9.362,
+      "z_range": [
+        1984,
+        18240
+      ],
+      "axis_ok": [
+        1984,
+        18240
+      ],
+      "radius_mm": 10.0,
+      "points_shown": 510790,
+      "ct_slices": 254,
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0257/volumes/20250821151750-9.362um-1.2m-113keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge \u2014 CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "https://github.com/AlexeyDrobkovStrikesBack/herculaneum-umbilici/blob/de7642ac9b38266e95192489e22fb13b7e2d13b6/PHerc0257_umbilicus.json",
+        "axis_license": "MIT",
+        "axis_note": "Manual axis by Alexey Drobkov.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      }
+    },
+    {
+      "id": "PHerc0800",
+      "title": "PHerc0800 \u2014 scroll center",
+      "scene": "data/scenes/PHerc0800.json.gz",
+      "axis": "data/axes/PHerc0800.json",
+      "voxel_um": 8.64,
+      "z_range": [
+        1728,
+        23008
+      ],
+      "axis_ok": [
+        1728,
+        23008
+      ],
+      "radius_mm": 10.0,
+      "points_shown": 436036,
+      "ct_slices": 333,
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge \u2014 CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "https://github.com/AlexeyDrobkovStrikesBack/herculaneum-umbilici/blob/de7642ac9b38266e95192489e22fb13b7e2d13b6/PHerc0800_umbilicus.json",
+        "axis_license": "MIT",
+        "axis_note": "Manual axis by Alexey Drobkov.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      }
+    },
+    {
+      "id": "PHerc1218",
+      "title": "PHerc1218 \u2014 scroll center",
+      "scene": "data/scenes/PHerc1218.json.gz",
+      "axis": "data/axes/PHerc1218.json",
+      "voxel_um": 8.64,
+      "z_range": [
+        1232,
+        22064
+      ],
+      "axis_ok": [
+        1232,
+        22064
+      ],
+      "radius_mm": 10,
+      "points_shown": 600000,
+      "ct_slices": 325,
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1218/volumes/20250521120456-8.640um-1.2m-116keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge \u2014 CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "https://github.com/AlexeyDrobkovStrikesBack/herculaneum-umbilici/blob/de7642ac9b38266e95192489e22fb13b7e2d13b6/PHerc1218_umbilicus.json",
+        "axis_license": "MIT",
+        "axis_note": "Manual axis by Alexey Drobkov.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      }
+    },
+    {
+      "id": "PHerc1667",
+      "title": "PHerc1667 \u2014 scroll center",
+      "scene": "data/scenes/PHerc1667.json.gz",
+      "axis": "data/axes/PHerc1667.json",
+      "voxel_um": 2.399,
+      "z_range": [
+        1536,
+        36864
+      ],
+      "axis_ok": [
+        1536,
+        36864
+      ],
+      "radius_mm": 10.5,
+      "points_shown": 38094,
+      "ct_slices": 138,
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/volumes/20251217075048-2.399um-0.2m-78keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge \u2014 CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "Rough center track from cross-section centroids.",
+        "axis_license": "CC-BY-NC-4.0",
+        "axis_note": "Rough center track from cross-section centroids.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      }
+    }
+  ]
+}
