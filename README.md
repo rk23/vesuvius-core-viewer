@@ -18,7 +18,9 @@ Screenshots contain Vesuvius Challenge CT data under **CC BY-NC 4.0**; see
 
 ## Open the viewer
 
-From this repository, run:
+Open the hosted viewer at **<https://rk23.github.io/vesuvius-core-viewer/>**.
+
+To run it locally from this repository:
 
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1
