@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "capture": "Unedited Chromium screenshots of the running viewer; 1440 x 1000 CSS pixels, device scale 1.",
+  "coordinate_frame": "Original scan level-0 voxels: x and y in the axial plane, z along the stack. The viewer draws increasing z downward and uses millimeters for distances.",
+  "files": [
+    {
+      "path": "docs/screenshots/pherc175a-oblique.png",
+      "bytes": 401445,
+      "sha256": "cfad9b2e2387395ee4a153587c31cea179677c5131582f6ae1cdb7202473f62f",
+      "scene_id": "PHerc0175A",
+      "source_scene": "data/scenes/PHerc0175A.json.gz",
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0175A/volumes/20250521115057-8.640um-1.2m-116keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge — CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "Approximate center track; displayed beyond its specified central range.",
+        "axis_license": "CC-BY-NC-4.0",
+        "axis_note": "Approximate center track; displayed beyond its specified central range.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      },
+      "view": {
+        "orientation": "oblique",
+        "point_color": "angle",
+        "points_visible": true,
+        "axis_visible": true,
+        "outline_opacity": 0.2,
+        "slice_z": 6752,
+        "slice_opacity": 0.9
+      }
+    },
+    {
+      "path": "docs/screenshots/pherc191-ct.png",
+      "bytes": 508704,
+      "sha256": "d88da2e1b0c4a185f3f3124c8bc12369958e06891ee5d7f453ac92b4c68a06d8",
+      "scene_id": "PHerc0191",
+      "source_scene": "data/scenes/PHerc0191.json.gz",
+      "provenance": {
+        "volume_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0191/volumes/20250821151635-9.362um-1.2m-113keV-masked.zarr",
+        "data_license": "CC-BY-NC-4.0",
+        "data_attribution": "Vesuvius Challenge — CT Scans of Herculaneum Papyri",
+        "data_reference": "https://scrollprize.org/data",
+        "axis_source": "https://github.com/AlexeyDrobkovStrikesBack/herculaneum-umbilici/blob/de7642ac9b38266e95192489e22fb13b7e2d13b6/PHerc0191_umbilicus.json",
+        "axis_license": "MIT",
+        "axis_note": "Manual axis by Alexey Drobkov.",
+        "display": "Cropped, downsampled CT slices and threshold-selected CT voxel locations; outline where available."
+      },
+      "view": {
+        "orientation": "top",
+        "points_visible": false,
+        "axis_visible": false,
+        "slice_z": 10368,
+        "slice_opacity": 1.0,
+        "camera_target": "slice center"
+      }
+    }
+  ]
+}

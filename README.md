@@ -4,6 +4,18 @@ A browser tool for exploring the center of a CT-scanned papyrus scroll in 3D. Ro
 axis, scrub through CT slices, and view threshold-selected CT points by angle, height, or distance from
 the center. Seven prepared scenes are included.
 
+![PHerc. 175A in an oblique 3D view, with colored CT feature points, a white reference axis, and faint scroll outlines.](docs/screenshots/pherc175a-oblique.png)
+
+*PHerc. 175A: CT feature points colored by angle around the reference axis, with a CT slice through
+the center and whole-scroll outlines for context.*
+
+![PHerc. 191 viewed from above, showing a grayscale CT cross-section of the folded papyrus around its center.](docs/screenshots/pherc191-ct.png)
+
+*PHerc. 191: a top-down CT cross-section at z = 10,368 in the original scan's level-0 voxels.*
+
+Screenshots contain Vesuvius Challenge CT data under **CC BY-NC 4.0**; see
+[credits and licenses](ATTRIBUTION.md) and the [screenshot manifest](docs/screenshots/manifest.json).
+
 ## Open the viewer
 
 From this repository, run:

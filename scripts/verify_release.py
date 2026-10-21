@@ -21,10 +21,12 @@ SOURCE_FILES = {
     "licenses/HERCULANEUM-UMBILICI.txt", "umbilicus_viewer/__init__.py", "umbilicus_viewer/__main__.py",
     "umbilicus_viewer/schema.py", "umbilicus_viewer/builder.py", "scripts/verify_release.py",
     "scripts/export_site.py", "tests/test_builder.py", "tests/test_release.py", "tests/browser_smoke.py",
+    "docs/screenshots/manifest.json",
 }
 DATA_FILES = {f"data/{kind}/{s}{suffix}" for s in SCROLLS
               for kind, suffix in [("scenes", ".json.gz"), ("axes", ".json")]}
-ALLOWED_FILES = SOURCE_FILES | DATA_FILES
+SCREENSHOT_FILES = {"docs/screenshots/pherc175a-oblique.png", "docs/screenshots/pherc191-ct.png"}
+ALLOWED_FILES = SOURCE_FILES | DATA_FILES | SCREENSHOT_FILES
 IGNORED_DIRS = {".git", ".venv", "__pycache__", ".pytest_cache", ".ruff_cache", "dist", "node_modules",
                 "playwright-report", "test-results"}
 
@@ -52,7 +54,10 @@ def verify(root: Path = ROOT):
     manifest = json.loads((root / "data/manifest.json").read_text())
     if {f["path"] for f in manifest["files"]} != DATA_FILES | {"data/catalog.json"}:
         raise ValueError("Data manifest differs from the allowlisted files")
-    for name in ["data/manifest.json", "vendor/manifest.json"]:
+    screenshots = json.loads((root / "docs/screenshots/manifest.json").read_text())
+    if {f["path"] for f in screenshots["files"]} != SCREENSHOT_FILES:
+        raise ValueError("Screenshot manifest differs from the allowlisted files")
+    for name in ["data/manifest.json", "vendor/manifest.json", "docs/screenshots/manifest.json"]:
         for f in json.loads((root / name).read_text())["files"]:
             if f["path"] not in actual:
                 raise ValueError("Manifest references a file outside the release")

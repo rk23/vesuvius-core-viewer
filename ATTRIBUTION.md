@@ -18,6 +18,10 @@ Some scenes include outlines extracted from nonzero CT cross-sections. Data has 
 compressed JSON with public volume provenance. The supplied CT-derived center tracks retain
 CC BY-NC 4.0. No endorsement by the data providers is implied.
 
+The README screenshots in `docs/screenshots/` are captures of the running viewer using the bundled
+PHerc. 175A and PHerc. 191 scenes. They contain CT imagery and derived visualization data under
+CC BY-NC 4.0.
+
 ## Manual center axes
 
 The axes for PHerc. 191, 257, 800, and 1218 are by **Alexey Drobkov**, from
@@ -39,5 +43,5 @@ notices are recorded in [vendor/manifest.json](vendor/manifest.json).
 
 ## Viewer
 
-The standalone viewer, scene preparation utilities, documentation, and tests are MIT licensed;
+The standalone viewer, scene preparation utilities, documentation text, and tests are MIT licensed;
 see [LICENSE](LICENSE). This project is independently maintained.
