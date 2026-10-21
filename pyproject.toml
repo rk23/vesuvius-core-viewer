@@ -1,5 +1,5 @@
 [project]
-name = "umbilicus-viewer"
+name = "vesuvius-core-viewer"
 version = "0.1.0"
 description = "A local browser viewer for the centers of CT-scanned papyrus scrolls."
 requires-python = ">=3.12"

@@ -1,4 +1,4 @@
-# Release preparation
+# Vesuvius Core Viewer release preparation
 
 The release scope is the CT center viewer and its seven prepared scenes. The portable scene schema
 allows only titles, coordinates, CT-derived point positions, CT image crops, cross-section outlines,

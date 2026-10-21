@@ -1,4 +1,4 @@
-# Umbilicus Viewer
+# Vesuvius Core Viewer
 
 A browser tool for exploring the center of a CT-scanned papyrus scroll in 3D. Rotate around a reference
 axis, scrub through CT slices, and view threshold-selected CT points by angle, height, or distance from

@@ -1,4 +1,4 @@
-name: Check viewer
+name: Check Vesuvius Core Viewer
 on: [push, pull_request]
 permissions:
   contents: read

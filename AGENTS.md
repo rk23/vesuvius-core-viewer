@@ -2,7 +2,7 @@
 
 ## Scope
 
-Umbilicus Viewer is a standalone browser tool for visualizing the centers of CT-scanned papyrus
+Vesuvius Core Viewer is a standalone browser tool for visualizing the centers of CT-scanned papyrus
 scrolls. Keep contributions focused on CT display, center axes, portable scene preparation, and
 accessibility. The viewer must work from a plain HTTP server without accounts or a backend.
 

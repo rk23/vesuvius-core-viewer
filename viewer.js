@@ -5,7 +5,7 @@ export function mountViewer(D) {
 const abort = new AbortController(), { signal } = abort;
 const $ = id => document.getElementById(id);
 const VX = D.voxel_mm, C = D.centre;
-$('title').textContent = D.title; document.title = D.title;
+$('title').textContent = D.title; document.title = `${D.title} | Vesuvius Core Viewer`;
 $('about').textContent = `Points: ${D.feature_text}, within ${D.radius_mm} mm of the axis; z ${D.z_range[0]}–${D.z_range[1]}. ` +
   (D.axis_ok ? `Axis reference range: z ${D.axis_ok[0]}–${D.axis_ok[1]}. ` : '') +
   'Axes: x red, y green, z blue (z drawn downward). Drag to rotate, right-drag to pan, scroll to zoom.';
